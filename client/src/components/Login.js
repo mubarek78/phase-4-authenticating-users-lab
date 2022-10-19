@@ -16,6 +16,7 @@ function Login({ onLogin }) {
         r.json().then((user) => onLogin(user));
       }
     });
+    // console.log(username)
   }
 
   return (
